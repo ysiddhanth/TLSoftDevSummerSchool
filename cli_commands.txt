@@ -1,0 +1,18 @@
+pwd - Gives the working directory
+ls -l : Includes sudo user, directory user, file size, last modified, nd finally name
+
+mkdir folder: creates a new folder named "folder"
+touch hello.txt : Can manipulate the creation timestamp, last modified timestamp. Basically controlling when it was "touched."
+
+rm hello.txt: Deletes that file.
+chmod +x run.sh: it allows it to be executable.
+git init: Creates a .git folder, effectively creating a new repository.
+git status: shows whether my branch is upto date with the main branch of the repo.
+git add . : Prepares all the files and folders in the repo directory for a commit.
+git commit -m "Initial Commit" : The prepared files are now committed to the local repository or your branch. Ideally, it will create snapshots in time so that you can revert if you fuck up.
+git push origin main: Pushes the commit snapshot to the main branch of the repository.
+git checkout -b new-feature: creates a branch names "new-feature"
+code . : Supposed to open vs code in the working directory, but since I installed in from the software store on fedora, I havent set up the path source yet.
+
+
+
