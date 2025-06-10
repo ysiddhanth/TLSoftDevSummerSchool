@@ -1,0 +1,11 @@
+So, the main page should be like:
+nav bar , with the basic shit
+center of attraction show be a nice flexbox demonstration but its with clickable boxes of events and their images. pressing them will reveal their description of lorem ipsum.
+scroll down to see the founders and etc.
+scroll down for the final footer.
+
+
+
+Event page:
+The page should have the nav bar.
+the should be more images in a flex box grid manner with a jumbled text. a form for registration in the bottom. finally a footer.

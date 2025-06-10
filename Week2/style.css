@@ -1,0 +1,161 @@
+body{
+    color:black;
+    font-weight: bolder;
+}
+
+body.dark-mode {
+    background-color: #000000;
+    color: #fff;
+  }
+#header1{
+    color:red;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.navbar{
+    background-color: #333;
+    height: 40px;
+    width: 1920px;
+    max-width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+}
+.navbar a{
+    color: violet;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 5px;
+    height: 25px;
+    gap: 1px;
+    border: 4px rebeccapurple dashed;
+}
+#l1{flex: 1;}
+#l2{flex: 2;}
+#l3{flex: 1;}
+#themeToggle{flex: 1;}
+
+
+.events {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    height: 1000px;
+    color: violet;
+}
+.events .divs{
+    border: 2px violet solid;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    color: violet;
+}
+.events .divs:hover{
+    border: 2px rebeccapurple solid;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    background-color: aqua;
+    text-decoration: line-through;
+    color: rebeccapurple;
+}
+    
+#div1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+}
+
+#div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+}
+
+#div3 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 5;
+}
+
+#div4 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 3;
+}
+
+#div5 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-row-start: 3;
+}
+
+#div6 {
+    grid-row: span 3 / span 3;
+    grid-column-start: 4;
+    grid-row-start: 3;
+}
+
+#div7 {
+    grid-column-start: 5;
+    grid-row-start: 3;
+}
+
+#div8 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 5;
+    grid-row-start: 4;
+}
+
+#div9 {
+    grid-column: span 3 / span 3;
+    grid-row-start: 5;
+}
+
+footer{
+    background-color: #333;
+    height: 40px;
+    width: 1920px;
+    max-width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    color: violet;
+}
+        
+
+#event1content{
+    border-radius: 5px;
+    border: 2px rebeccapurple solid;
+}
+
+#registrationForm{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#submit{
+    border: 2px violet solid;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
